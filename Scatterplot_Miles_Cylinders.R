@@ -15,9 +15,7 @@ attach(Auto)
 #plot() produce a scatterplot of quantitative variables
 #mpg = miles per gallon
 #cylinders = Number of cylinders between 4 and 8
-
-
-#Traslate quantitative variables in qualitatives variable
-cylinders = as.factor (cylinders)
-
 plot(cylinders,mpg)
+
+
+
