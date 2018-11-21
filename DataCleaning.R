@@ -24,3 +24,5 @@ library(vegan)
 SpeseManutPerAuto2018CleanSt<-decostand(SpeseManutPerAuto2018Clean,"max", MARGIN = 2)
 # Show new dataframe with standardization value
 View(SpeseManutPerAuto2018CleanSt)
+plot(SpeseManutPerAuto2018CleanSt$KmNoOut,SpeseManutPerAuto2018CleanSt$SpeseNoOut)
+cor(SpeseManutPerAuto2018CleanSt$KmNoOut,SpeseManutPerAuto2018CleanSt$SpeseNoOut)
